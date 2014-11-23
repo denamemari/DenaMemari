@@ -33,9 +33,9 @@ cacheSolve <- function(y, ...) {
         inverse <- solve(Matrix)
         y$cacheInverse(inverse)
         
+        ]
         inverse
 }
-
 l <- makeCacheMatrix( matrix(c(3,2,5,10,9,52,34,3,5,45,67,43,5,21,23,46), nrow = 4, ncol = 4) );
 summary(l)
 l$getMatrix()
